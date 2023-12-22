@@ -311,6 +311,9 @@ nav .fas{
         display: block;
         font-size: 25px;
     }
+     #about{
+     <img src="images/coding.webp" height="500" width="1600">
+    }
     nav ul{
         background: #ff004f;
         position: fixed;
