@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41816b6135.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+                <img src="images/vishu.jpg" class="vishu">
+            </nav>
+        </div>
+    </div>        
+            <div class="header-text">
+                <p>software developer</p><br>
+                <h1>Hi, I'm <span>Vishva</span><br>from surat</h1>
+            </div>
+
+<!---------------about------------>            
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/coding.webp" height="500" width="800">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>During my academic years, Inot only excelled in my course work but also actively sought out opportunities to apply my knowledge.
+                         I participated in numerous programming competitions and hackathons, honing my problem solving skills and fostering a passion
+                          for turning abstract ideas into functionL, elegant solutions. I quickly realized that computer engineering was not just a
+                           field of study but a way of life for me.</p>
+
+                           <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java script</span><br>Basic</li>
+                                <li><span>Html</span><br>experienced</li>
+                                <li><span>Css</span><br>experienced</li>
+                                <li><span>Sql</span><br>experienced</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Fresher</span><br>computer science</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bsc computer science</span><br>2022-2025</li>
+                               
+                            </ul>
+                           </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>front end developer</h2>
+                <p>A front-end developer creates websites and applications using web language such as 
+                    HTML, CSS, and Javascript that allow users to access and interact with the site or app.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>    
+                <h2>back end developer</h2>
+                <i class="fa-brands fa-js"></i>
+                 <p>Backend development primarily focuses on databases, scripting, backend logic, APIs, 
+                    and website architechture.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img  src="/images/m1.webp">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people<br>
+                        around the world. download it from playsore.</p>
+                    <a href="#"></a><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img  src="images/project.jpg">
+                <div class="layer">
+                    <h3>Project Management</h3>
+                    <p>It included, motivating a team, improving productivity,<br> 
+                        establishing a structure, tracking progress and analyzing work.</p>
+                    <a href="#"></a><i class="fa-solid fa-list-check"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img  src="images/it.jpg">
+                <div class="layer">
+                    <h3>Error Handling</h3>
+                    <p>The task of the Error Handling process are to detect each<br>
+                        error, report it to the user, and then make some recovery<br> 
+                        strategy and implement them to handle the error.</p>
+                    <a href="#"></a><i class="fa-solid fa-circle-exclamation"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--------------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>vishvadonga07@gmail.com</p>
+                <P><i class="fas fa-phone-square-alt"></i>9054200000</P>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="4" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 all rights reserved<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5lI05x-V5UeQkWuwqirGxIc_5XHgpJp16Unrl-HwKAkhbywnd5kP5tnv2IOdf2W6s/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
