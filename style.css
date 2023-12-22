@@ -305,7 +305,7 @@ nav .fas{
 }
 @media only screen and(max-with: 600px){
     #header{
-        background-image: url(images/vishva.jpg);
+        background-image: url(images/vishva.jpg width="500" height="800");
     }
     nav .fas{
         display: block;
