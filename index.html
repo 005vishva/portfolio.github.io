@@ -11,6 +11,7 @@
     <div id="header">
         <div class="container">
             <nav>
+                <img src="images/vishu.jpg" class="vishu">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -18,10 +19,8 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
-                    <i class="fas fa-bars" onclick="openmenu()"></i>
                 </ul>
-                
-                <img src="images/vishu.jpg" class="vishu">
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
         </div>
     </div>        
@@ -177,12 +176,12 @@
         }
     </script>
     <script>
-        var sidemenu = document.getElementById("sidemenu");
+        var sidemeu = document.getElementById("sidemenu");
         function openmenu(){
-            sidemenu.style.right = "0";
+            sidemeu.style.right = "0";
         }
         function closemenu(){
-            sidemenu.style.right = "-200px";
+            sidemeu.style.right = "-200px";
         }
     </script>
     <script>
