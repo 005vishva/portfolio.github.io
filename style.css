@@ -307,13 +307,18 @@ nav .fas{
     #header{
         background-image: url(images/vishva.jpeg);
     }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
     nav .fas{
         display: block;
         font-size: 25px;
     }
-     #about{
-     <img src="images/coding.webp" height="500" width="1600">
-    }
+    
     nav ul{
         background: #ff004f;
         position: fixed;
