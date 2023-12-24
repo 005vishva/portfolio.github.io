@@ -320,11 +320,12 @@ nav .fas{
     }
     
     nav ul{
+        background-color: #ff004f;
         position: fixed;
         top: 0;
-        left: -200px;
-        height: 200px;
-        width: 100vh;
+        right: -200px;
+        height: 1000px;
+        width: 25vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
